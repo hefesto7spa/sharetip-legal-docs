@@ -1,10 +1,10 @@
-# GitHub Pages Configuration for ShareBet Legal Documents
+# GitHub Pages Configuration for ShareTip Legal Documents
 
 # Site settings
-title: "ShareBet - Documentos Legales"
-description: "Documentos legales oficiales de ShareBet: Política de Privacidad, Términos de Servicio y Normas de la Comunidad"
+title: "ShareTip - Documentos Legales"
+description: "Documentos legales oficiales de ShareTip: Política de Privacidad, Términos de Servicio y Normas de la Comunidad"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hefesto7spa.github.io/sharebet-legal-docs" # the base hostname & protocol for your site
+url: "https://hefesto7spa.github.io/sharetip-legal-docs" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -13,7 +13,7 @@ permalink: pretty
 
 # GitHub Pages specific settings
 github:
-  repository_name: sharebet-legal-docs
+  repository_name: sharetip-legal-docs
   owner_name: hefesto7spa
 
 # Exclude from processing
@@ -38,10 +38,10 @@ plugins:
 
 # SEO settings
 lang: es
-author: ShareBet Team
+author: ShareTip Team
 
 # Social media and contact
-email: legal@sharebet.app
+email: legal@sharetip.app
 twitter_username: sharebet_app
 github_username: hefesto7spa
 

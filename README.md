@@ -1,14 +1,14 @@
-# ShareBet - Documentos Legales
+# ShareTip - Documentos Legales
 
-Este repositorio contiene los documentos legales oficiales de ShareBet, una plataforma social de predicciones deportivas.
+Este repositorio contiene los documentos legales oficiales de ShareTip, una plataforma social de predicciones deportivas.
 
 ## 🌐 Sitio Web
 
 Los documentos están disponibles en:
-- **Sitio principal:** https://hefesto7spa.github.io/sharebet-legal-docs/
-- **Política de Privacidad:** https://hefesto7spa.github.io/sharebet-legal-docs/privacy-policy.html
-- **Términos de Servicio:** https://hefesto7spa.github.io/sharebet-legal-docs/terms-of-service.html
-- **Normas de la Comunidad:** https://hefesto7spa.github.io/sharebet-legal-docs/community-guidelines.html
+- **Sitio principal:** https://hefesto7spa.github.io/sharetip-legal-docs/
+- **Política de Privacidad:** https://hefesto7spa.github.io/sharetip-legal-docs/privacy-policy.html
+- **Términos de Servicio:** https://hefesto7spa.github.io/sharetip-legal-docs/terms-of-service.html
+- **Normas de la Comunidad:** https://hefesto7spa.github.io/sharetip-legal-docs/community-guidelines.html
 
 ## 📋 Documentos Incluidos
 
@@ -38,7 +38,7 @@ Los documentos están disponibles en:
 
 ## 📧 Contacto Legal
 
-- **Email único de soporte:** support@sharebet.app
+- **Email único de soporte:** support@sharetip.app
 - **Razón Social:** HEFESTO LABS SpA
 - **RUT:** 78.277.227-9
 
@@ -49,11 +49,11 @@ Este sitio utiliza GitHub Pages con Jekyll. Para configurar:
 1. Habilita GitHub Pages en la configuración del repositorio
 2. Selecciona "Deploy from a branch"
 3. Elige "main" branch y "/ (root)" folder
-4. El sitio estará disponible en `https://[username].github.io/sharebet-legal-docs/`
+4. El sitio estará disponible en `https://[username].github.io/sharetip-legal-docs/`
 
 ## 📱 Integración con la App
 
-Estos documentos se referencian directamente desde la aplicación ShareBet en:
+Estos documentos se referencian directamente desde la aplicación ShareTip en:
 - Proceso de registro
 - Configuración > Legal
 - Modales de términos y privacidad
@@ -67,4 +67,4 @@ Los documentos legales son críticos para la operación. Cualquier modificación
 
 ---
 
-**ShareBet Team** - Construyendo una comunidad deportiva positiva y transparente
+**ShareTip Team** - Construyendo una comunidad deportiva positiva y transparente

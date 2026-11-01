@@ -32,207 +32,135 @@
     <h1>Política de Privacidad</h1>
 
     <div class="last-updated">
-        <strong>Última actualización:</strong> 8 de abril de 2026
+        <strong>Última actualización:</strong> 1 de noviembre de 2026
     </div>
 
-    <h2>1. INTRODUCCIÓN</h2>
-    <p>En ShareTip respetamos su privacidad y nos comprometemos a proteger sus datos personales. Esta política explica cómo recopilamos, usamos y protegemos su información.</p>
-    <p><strong>ShareTip es operado por HEFESTO LABS SpA (RUT: 78.277.227-9)</strong>, sociedad constituida en Chile el 20 de octubre de 2025, quien actúa como responsable del tratamiento de sus datos personales conforme a la Ley N° 19.628.</p>
+    <h2>1. QUIÉNES SOMOS</h2>
+    <p><strong>ShareTip es operado por HEFESTO LABS SpA (RUT 78.277.227-9)</strong>, sociedad constituida en Chile, que es la responsable del tratamiento de sus datos personales.</p>
+    <p><strong>DOSBEN LLC</strong>, sociedad relacionada constituida en Wyoming, Estados Unidos (30 N Gould St, Sheridan, WY 82801), es quien vende y cobra los productos pagados de ShareTip y quien paga a los creadores. Para eso trata los datos de pagos y cobros por encargo de Hefesto Labs y para cumplir sus propias obligaciones legales y tributarias.</p>
+    <p>En esta política, "ShareTip" o "nosotros" se refiere a ambas sociedades. Para cualquier consulta sobre sus datos escriba a <a href="mailto:support@sharetip.app">support@sharetip.app</a>.</p>
 
-    <h2>2. INFORMACIÓN QUE RECOPILAMOS</h2>
+    <h2>2. QUÉ DATOS TRATAMOS</h2>
 
-    <h3>Recopilamos información que usted nos proporciona directamente:</h3>
+    <h3>Datos que usted nos entrega</h3>
     <ul>
-        <li>Información de registro (email, nombre de usuario)</li>
-        <li>Predicciones y contenido que publica</li>
-        <li>Comunicaciones con otros usuarios</li>
-        <li>Información de perfil opcional</li>
-        <li>Historial de transacciones monetarias realizadas en la plataforma (montos, fechas, tipo de transacción)</li>
+        <li><strong>Cuenta:</strong> email, nombre de usuario, nombre visible, foto de perfil y contraseña. La contraseña la guarda Firebase Authentication de forma cifrada; nosotros no podemos verla.</li>
+        <li><strong>Inicio de sesión con Google o Apple:</strong> el nombre, el email y la foto que usted autorice. Con Apple puede elegir ocultar su email.</li>
+        <li><strong>Edad:</strong> la confirmación de que es mayor de 18 años.</li>
+        <li><strong>Perfil:</strong> biografía, enlaces, categoría, portada y demás datos opcionales.</li>
+        <li><strong>Contenido:</strong> picks, imágenes de boletos, descripciones, comentarios, likes, menciones, códigos o enlaces que comparta y reportes que envíe.</li>
+        <li><strong>Pagos que usted hace:</strong> producto, monto, moneda, fecha y estado del pago. Los datos de su tarjeta los recibe directamente Stripe, Apple o Google; ShareTip no los ve ni los guarda.</li>
+        <li><strong>Datos para cobrar (creadores):</strong> nombre del titular, dirección, país, banco, tipo y número de cuenta (o CBU, CLABE, IBAN, número de ruta o SWIFT según el país) e identificación tributaria (por ejemplo RUT, CUIT, RFC o NIF). También el historial de su saldo y de los pagos que le hacemos.</li>
+        <li><strong>Verificación de identidad (Verificado):</strong> una foto de su documento de identidad y una selfie. Ver la sección 3.</li>
+        <li><strong>Mensajes a soporte:</strong> lo que nos escriba y los datos de contacto que use.</li>
     </ul>
 
-    <h3>Información recopilada automáticamente:</h3>
+    <h3>Datos que se recogen automáticamente</h3>
     <ul>
-        <li>Datos de uso de la aplicación y eventos de Firebase Analytics</li>
-        <li>Información del dispositivo (tipo, sistema operativo, versión de app, identificadores de dispositivo)</li>
-        <li>Dirección IP y datos de ubicación aproximada (ciudad, país, derivados de su IP)</li>
-        <li>Identificadores de dispositivo para notificaciones push</li>
-        <li>Cookies y tecnologías similares</li>
-        <li>Datos de rendimiento y errores de la aplicación</li>
-        <li>Información de registro del servidor (solicitudes, tipo de navegador, páginas visitadas, tiempo de uso)</li>
+        <li><strong>Uso de la app:</strong> pantallas visitadas, botones tocados y eventos, con Firebase Analytics y PostHog.</li>
+        <li><strong>Grabaciones de sesión:</strong> PostHog registra lo que se ve en pantalla y cómo se interactúa, para encontrar errores y mejorar el diseño. Los campos con datos bancarios se ocultan en las grabaciones.</li>
+        <li><strong>Errores y rendimiento:</strong> informes de fallos con Firebase Crashlytics.</li>
+        <li><strong>Dispositivo y conexión:</strong> modelo, sistema operativo, versión de la app, idioma, zona horaria, identificadores del dispositivo, dirección IP y ubicación aproximada (ciudad y país) derivada de la IP.</li>
+        <li><strong>Notificaciones:</strong> el identificador que su dispositivo usa para recibir notificaciones push.</li>
+        <li><strong>Origen de la instalación (Android):</strong> la referencia de Google Play que indica desde dónde llegó a instalar la app, por ejemplo un enlace de invitación.</li>
+        <li><strong>Web:</strong> almacenamiento local y cookies necesarias para mantener la sesión, recordar preferencias y medir el uso.</li>
     </ul>
 
-    <h3>Información recibida de terceros:</h3>
+    <h3>Lectura de boletos</h3>
+    <p>En la versión web, cuando usted sube la imagen de un boleto, el texto se lee dentro de su navegador para precompletar el formulario. La imagen solo llega a nuestros servidores si usted publica el pick.</p>
+
+    <h2>3. VERIFICACIÓN DE IDENTIDAD</h2>
+    <p>Para obtener la insignia Verificado debe comprobar su identidad. Es voluntario y solo se pide a quien lo solicita.</p>
     <ul>
-        <li>Cuando conecta su cuenta mediante servicios de terceros (Google Sign-In, Apple Sign-In, Facebook Login), recibimos información básica de perfil autorizada por usted (nombre, email, foto de perfil)</li>
-        <li>Información de procesadores de pago sobre el estado de transacciones (confirmaciones, no datos sensibles de pago)</li>
-        <li>Datos de plataformas de distribución (Apple App Store, Google Play) relacionados con suscripciones</li>
+        <li><strong>Verificación automática:</strong> la hace Stripe Identity. Usted fotografía su documento y se toma una selfie, y Stripe compara ambas imágenes de forma automatizada. Stripe nos informa el resultado; ShareTip no recibe ni guarda esas imágenes.</li>
+        <li><strong>Revisión manual:</strong> si la verificación automática no es posible, usted puede subir la foto del documento y la selfie a ShareTip para que una persona del equipo las revise. <strong>Las fotos se borran apenas se aprueba o rechaza la solicitud.</strong> Solo guardamos el resultado, la fecha y quién la revisó.</li>
+    </ul>
+    <p>Las imágenes de su rostro y de su documento son datos sensibles. Las tratamos solo con su consentimiento expreso, que usted da al iniciar la verificación, y solo para comprobar su identidad. Puede retirar ese consentimiento en cualquier momento; en ese caso no podrá mantener la insignia.</p>
+
+    <h2>4. PARA QUÉ USAMOS SUS DATOS Y CON QUÉ BASE</h2>
+    <ul>
+        <li><strong>Prestar el servicio</strong> (crear su cuenta, publicar y mostrar picks, calcular resultados y rankings, seguir a otros usuarios, enviar notificaciones de actividad): ejecución del contrato que acepta al usar ShareTip.</li>
+        <li><strong>Procesar apoyos, suscripciones y planes, y pagar a los creadores:</strong> ejecución del contrato y cumplimiento de obligaciones legales y tributarias.</li>
+        <li><strong>Verificar la identidad para el Verificado:</strong> su consentimiento expreso.</li>
+        <li><strong>Prevenir fraude, contracargos, suplantación y abusos, y moderar contenido:</strong> interés legítimo en proteger a los usuarios y a la plataforma, y obligaciones legales.</li>
+        <li><strong>Medir el uso, grabar sesiones y corregir errores:</strong> interés legítimo en mejorar el servicio. Puede oponerse escribiéndonos.</li>
+        <li><strong>Enviar notificaciones push:</strong> su consentimiento, que da con el permiso del sistema y puede retirar en los ajustes del dispositivo o de la app.</li>
+        <li><strong>Enviar correos del servicio</strong> (verificación de email, avisos de pagos y de cuenta): ejecución del contrato.</li>
+    </ul>
+    <p><strong>No vendemos ni alquilamos sus datos personales.</strong> Hoy ShareTip no muestra publicidad; si la incorporamos, actualizaremos esta política antes de hacerlo.</p>
+
+    <h2>5. QUÉ ES PÚBLICO</h2>
+    <p>ShareTip es una red social. Su nombre de usuario, nombre visible, foto, perfil, picks, comentarios, likes, seguidores, resultados, posición en rankings e insignias son visibles para cualquier persona, dentro de la app y en páginas web abiertas de ShareTip, como los enlaces que se comparten. Los buscadores pueden indexar esas páginas.</p>
+    <p>El contenido exclusivo solo lo ven los suscriptores del creador. Sus datos de pago, de cobro y de identidad nunca son públicos.</p>
+
+    <h2>6. CON QUIÉN COMPARTIMOS SUS DATOS</h2>
+    <p>Compartimos con proveedores lo mínimo necesario para que cada uno cumpla su función, bajo sus contratos y políticas de protección de datos:</p>
+    <ul>
+        <li><strong>Google (Firebase y Google Cloud):</strong> cuentas, base de datos, archivos, servidores, analítica, informes de errores, notificaciones y configuración de la app. También Google Sign-In y Google Play.</li>
+        <li><strong>Apple:</strong> Sign in with Apple, App Store y notificaciones.</li>
+        <li><strong>Stripe:</strong> pagos con tarjeta en la web y verificación de identidad.</li>
+        <li><strong>RevenueCat:</strong> gestión de compras hechas en las tiendas de aplicaciones.</li>
+        <li><strong>Wise:</strong> transferencias a los creadores; recibe los datos para cobrar.</li>
+        <li><strong>PostHog:</strong> analítica de uso y grabaciones de sesión.</li>
+        <li><strong>Resend:</strong> envío de correos del servicio.</li>
+        <li><strong>Cloudflare y Vercel:</strong> dominio, distribución y alojamiento de las páginas web.</li>
+        <li><strong>Dosben LLC:</strong> ventas, cobros y pagos a creadores, como se explica en la sección 1.</li>
+    </ul>
+    <p>También podemos compartir datos con autoridades cuando la ley lo exija, para defender nuestros derechos o los de otros usuarios, y con quien adquiera o suceda a ShareTip en una fusión, venta o reorganización, avisándole antes.</p>
+
+    <h2>7. TRANSFERENCIAS INTERNACIONALES</h2>
+    <p>La mayoría de nuestros proveedores, y Dosben LLC, están en Estados Unidos, por lo que sus datos se procesan principalmente allí. Exigimos a esos proveedores medidas de seguridad y cláusulas contractuales de protección de datos equivalentes a las de la ley chilena.</p>
+
+    <h2>8. CUÁNTO TIEMPO GUARDAMOS SUS DATOS</h2>
+    <ul>
+        <li><strong>Cuenta, perfil y contenido:</strong> mientras su cuenta exista. Al eliminarla borramos su perfil, picks, comentarios, likes, seguidores, archivos y datos de cobro.</li>
+        <li><strong>Registros de pagos y cobros:</strong> 6 años desde cada operación, por obligaciones tributarias, aunque elimine su cuenta.</li>
+        <li><strong>Fotos de identidad de la revisión manual:</strong> hasta que se aprueba o rechaza la solicitud. El resultado se guarda mientras exista la cuenta. Stripe conserva los datos de la verificación automática según su propia política.</li>
+        <li><strong>Grabaciones de sesión:</strong> hasta 90 días.</li>
+        <li><strong>Analítica de uso:</strong> hasta 14 meses.</li>
+        <li><strong>Registros técnicos de los servidores:</strong> hasta 30 días, salvo que se necesiten para investigar un incidente.</li>
     </ul>
 
-    <div class="important-box">
-        <h3>IMPORTANTE SOBRE DATOS DE PAGO:</h3>
-        <p><strong>ShareTip NO almacena ni procesa directamente sus datos de pago sensibles</strong> (números de tarjeta, cuentas bancarias, CVV, etc.).</p>
-        <ul>
-            <li>Las transacciones son procesadas directamente por terceros certificados: RevenueCat, Apple, Google, Mercado Pago, Stripe</li>
-            <li>Estos procesadores cumplen con estándares PCI-DSS y manejan sus datos de pago de forma segura</li>
-            <li>ShareTip solo recibe confirmaciones de transacciones e información no sensible necesaria para proporcionar el servicio</li>
-            <li>Sus datos de pago están protegidos por las políticas de seguridad de cada procesador de pago</li>
-        </ul>
-    </div>
-
-    <h2>3. BASES LEGALES PARA EL PROCESAMIENTO</h2>
-    <p>Procesamos sus datos personales basándonos en las siguientes bases legales, conforme a la legislación chilena aplicable:</p>
+    <h2>9. SUS DERECHOS</h2>
+    <p>Usted puede pedir en cualquier momento:</p>
     <ul>
-        <li><strong>Consentimiento:</strong> Cuando usted acepta estos términos al registrarse o cuando autoriza expresamente un uso específico de sus datos (por ejemplo, notificaciones push, conexión con redes sociales).</li>
-        <li><strong>Ejecución contractual:</strong> Cuando el procesamiento es necesario para proporcionarle los servicios de ShareTip (gestión de cuenta, publicación de predicciones, procesamiento de transacciones).</li>
-        <li><strong>Interés legítimo:</strong> Para mejorar nuestros servicios, prevenir fraude, garantizar la seguridad de la plataforma y realizar análisis de uso agregados, siempre que estos intereses no prevalezcan sobre sus derechos fundamentales.</li>
-        <li><strong>Obligación legal:</strong> Cuando debemos cumplir con obligaciones tributarias, regulatorias o requerimientos de autoridades competentes conforme a la ley chilena.</li>
+        <li>Acceder a sus datos y saber cómo los tratamos.</li>
+        <li>Rectificar los que estén incorrectos o incompletos.</li>
+        <li>Suprimirlos.</li>
+        <li>Oponerse a un tratamiento, por ejemplo a la analítica o a las grabaciones de sesión.</li>
+        <li>Recibirlos en un formato estructurado para llevarlos a otro servicio (portabilidad).</li>
+        <li>Bloquear temporalmente un tratamiento mientras se resuelve una solicitud.</li>
+        <li>Retirar un consentimiento que haya dado.</li>
     </ul>
-    <p>Usted puede retirar su consentimiento en cualquier momento contactándonos a <a href="mailto:support@sharetip.app">support@sharetip.app</a>. El retiro del consentimiento no afecta la licitud del procesamiento realizado con anterioridad.</p>
+    <p><strong>Eliminar su cuenta:</strong> puede hacerlo usted mismo desde el menú de su perfil, opción para eliminar la cuenta, o escribiéndonos. El borrado es permanente.</p>
+    <p>Para ejercer cualquier otro derecho escriba a <a href="mailto:support@sharetip.app">support@sharetip.app</a> desde el email de su cuenta. Respondemos dentro de 30 días. Si no queda conforme, puede reclamar ante la Agencia de Protección de Datos Personales de Chile, una vez que esté en funciones, o ante los tribunales.</p>
 
-    <h2>4. CÓMO USAMOS SU INFORMACIÓN</h2>
-    <p>Utilizamos su información para:</p>
+    <h2>10. SEGURIDAD</h2>
     <ul>
-        <li>Proporcionar y mejorar nuestros servicios</li>
-        <li>Facilitar transacciones de propinas y suscripciones a través de procesadores de pago externos</li>
-        <li>Mantener registros de transacciones para fines de soporte y auditoría</li>
-        <li>Prevenir fraude y actividades financieras ilícitas en coordinación con procesadores de pago</li>
-        <li>Personalizar su experiencia</li>
-        <li>Comunicarnos con usted</li>
-        <li>Garantizar la seguridad de la plataforma</li>
-        <li>Cumplir con obligaciones legales y tributarias</li>
-        <li>Generar reportes financieros cuando lo requiera la ley chilena</li>
+        <li>Toda la información viaja cifrada.</li>
+        <li>Reglas de acceso impiden que un usuario lea datos privados de otro.</li>
+        <li>Los datos para cobrar y las fotos de identidad solo los pueden leer el sistema y personas autorizadas del equipo.</li>
+        <li>Los datos de tarjetas los manejan Stripe, Apple y Google, certificados PCI-DSS.</li>
     </ul>
-    <p><strong>NOTA:</strong> ShareTip NO procesa pagos directamente. Los procesadores de pago usan su información conforme a sus propias políticas de privacidad.</p>
+    <p>Si ocurre una vulneración de seguridad que afecte sus datos, se lo informaremos a usted y a la autoridad según exija la ley.</p>
 
-    <h2>5. COMPARTIR INFORMACIÓN</h2>
-    <p>No vendemos ni alquilamos su información personal. Podemos compartir información en casos limitados:</p>
+    <h2>11. MENORES DE EDAD</h2>
+    <p>ShareTip es solo para mayores de 18 años. Si detectamos una cuenta de un menor, la eliminamos junto con sus datos. Si usted es padre, madre o tutor y cree que un menor nos dio sus datos, escríbanos a <a href="mailto:support@sharetip.app">support@sharetip.app</a>.</p>
 
-    <h3>CON PROCESADORES DE PAGO (OBLIGATORIO PARA FUNCIONAR):</h3>
-    <ul>
-        <li><strong>RevenueCat:</strong> Gestión de suscripciones y datos de usuario necesarios</li>
-        <li><strong>Apple/Google:</strong> Información de suscripciones vía In-App Purchase</li>
-        <li><strong>Mercado Pago/Stripe:</strong> Datos necesarios para procesar propinas y retiros</li>
-        <li>Estos procesadores tienen acceso a la información mínima necesaria para procesar transacciones</li>
-        <li>Cada procesador tiene sus propias políticas de privacidad que debe revisar</li>
-    </ul>
-
-    <h3>OTROS CASOS:</h3>
-    <ul>
-        <li>Con autoridades tributarias y financieras cuando lo requiera la ley chilena</li>
-        <li>Con su consentimiento explícito</li>
-        <li>Para cumplir con obligaciones legales</li>
-        <li>Para prevenir fraude o actividades ilícitas en coordinación con procesadores de pago</li>
-        <li>Para proteger nuestros derechos o seguridad</li>
-        <li>Con proveedores de servicios de infraestructura bajo acuerdos de confidencialidad (Firebase, hosting, etc.)</li>
-    </ul>
-
-    <h2>6. SEGURIDAD DE DATOS</h2>
-    <h3>Implementamos medidas técnicas y organizativas para proteger sus datos:</h3>
-    <ul>
-        <li>Encriptación de datos sensibles en tránsito y reposo</li>
-        <li>Acceso limitado a información personal mediante controles de autenticación</li>
-        <li>Monitoreo regular de seguridad y auditorías</li>
-        <li>Protocolos de respuesta a incidentes</li>
-        <li>Autenticación segura para acceso a la plataforma</li>
-    </ul>
-
-    <h3>SEGURIDAD DE PAGOS:</h3>
-    <p>ShareTip NO almacena datos de pago sensibles. La seguridad de transacciones es manejada por:</p>
-    <ul>
-        <li>Procesadores de pago certificados PCI-DSS (Mercado Pago, Stripe)</li>
-        <li>Apple y Google para suscripciones (In-App Purchase)</li>
-        <li>RevenueCat para gestión segura de suscripciones</li>
-        <li>Monitoreo de fraude proporcionado por los procesadores de pago</li>
-    </ul>
-    <p><strong>Sus datos de pago están protegidos por los estándares de seguridad de nivel bancario de estos procesadores, no por ShareTip directamente.</strong></p>
-
-    <h2>7. SUS DERECHOS</h2>
-    <p>Bajo la Ley N° 19.628 sobre Protección de la Vida Privada de Chile y leyes aplicables, tiene derecho a:</p>
-    <ul>
-        <li>Acceder a sus datos personales</li>
-        <li>Rectificar información inexacta</li>
-        <li>Eliminar sus datos (derecho al olvido)</li>
-        <li>Portabilidad de datos</li>
-        <li>Oponerse al procesamiento</li>
-        <li>Limitar el procesamiento</li>
-        <li>Conocer qué datos almacenamos sobre usted</li>
-        <li>Solicitar la modificación o cancelación de sus datos</li>
-    </ul>
-    <p>Para ejercer estos derechos, contacte: <a href="mailto:support@sharetip.app">support@sharetip.app</a></p>
-
-    <h2>8. RETENCIÓN DE DATOS</h2>
-    <p>Conservamos sus datos mientras:</p>
-    <ul>
-        <li>Su cuenta esté activa</li>
-        <li>Sea necesario para proporcionar servicios</li>
-        <li>Lo requieran obligaciones legales y tributarias</li>
-    </ul>
-
-    <h3>RETENCIÓN DE DATOS FINANCIEROS POR SHARETIP:</h3>
-    <ul>
-        <li>Los registros de transacciones (historial, montos, fechas) se conservan por el plazo mínimo exigido por la legislación tributaria chilena (actualmente 6 años desde la transacción)</li>
-        <li>Los datos necesarios para cumplir con el Servicio de Impuestos Internos (SII)</li>
-        <li>Incluso si elimina su cuenta, podemos retener registros de transacciones por obligaciones legales</li>
-    </ul>
-
-    <h3>RETENCIÓN POR PROCESADORES DE PAGO:</h3>
-    <ul>
-        <li>Los procesadores de pago (RevenueCat, Apple, Google, Mercado Pago, Stripe) tienen sus propias políticas de retención de datos</li>
-        <li>ShareTip no controla cuánto tiempo estos terceros retienen su información</li>
-        <li>Consulte las políticas de privacidad de cada procesador para más detalles sobre retención de datos de pago</li>
-    </ul>
-
-    <h2>9. TRANSFERENCIAS INTERNACIONALES</h2>
-    <p>Sus datos pueden procesarse en servidores ubicados en diferentes países. Garantizamos protecciones adecuadas mediante:</p>
-    <ul>
-        <li>Cláusulas contractuales estándar</li>
-        <li>Medidas de seguridad técnicas y organizativas</li>
-        <li>Cumplimiento con la legislación chilena de protección de datos</li>
-        <li>Otras salvaguardas legalmente reconocidas</li>
-    </ul>
-
-    <h2>10. MENORES DE EDAD</h2>
-    <p>ShareTip no está dirigido a menores de 18 años. No recopilamos intencionalmente datos de menores. Si detectamos que hemos recopilado datos de un menor de 18 años, procederemos a eliminarlos. Si usted es padre o tutor y cree que su hijo nos ha proporcionado información personal, contáctenos a <a href="mailto:support@sharetip.app">support@sharetip.app</a>.</p>
-
-    <h2>11. ENLACES A SITIOS DE TERCEROS</h2>
-    <p>ShareTip puede contener enlaces a otros sitios web o servicios. No somos responsables del contenido ni de las prácticas de privacidad de dichos sitios de terceros. Le recomendamos leer las políticas de privacidad de cualquier sitio que visite a través de enlaces en nuestra plataforma.</p>
-
-    <h2>12. CAMBIO DE CONTROL</h2>
-    <p>En caso de fusión, adquisición, reorganización, venta de activos o quiebra de HEFESTO LABS SpA, su información personal podría ser transferida como parte de dicha transacción. En tal caso, le notificaremos antes de que su información personal sea transferida y quede sujeta a una política de privacidad diferente.</p>
+    <h2>12. ENLACES A OTROS SITIOS</h2>
+    <p>Los usuarios pueden compartir enlaces a sitios de terceros. No controlamos esos sitios ni sus prácticas de privacidad.</p>
 
     <h2>13. CAMBIOS EN ESTA POLÍTICA</h2>
-    <p>Podemos actualizar esta política periódicamente. Le notificaremos cambios significativos a través de la aplicación o por email.</p>
+    <p>Si hacemos cambios importantes le avisaremos en la app o por email antes de que entren en vigencia. La fecha de la última actualización aparece al inicio.</p>
 
-    <h2>14. LEGISLACIÓN APLICABLE</h2>
-    <p>Esta política de privacidad se rige por la Ley N° 19.628 sobre Protección de la Vida Privada de Chile y demás normativa chilena aplicable en materia de protección de datos personales.</p>
-
-    <h2>15. EJERCICIO DE DERECHOS</h2>
-    <p>Para ejercer sus derechos bajo la legislación chilena, puede:</p>
-    <ul>
-        <li>Enviar una solicitud escrita a <a href="mailto:support@sharetip.app">support@sharetip.app</a></li>
-        <li>Presentar un reclamo ante el Consejo para la Transparencia de Chile si considera que sus derechos han sido vulnerados</li>
-        <li>Contactar directamente con nuestro equipo de soporte</li>
-    </ul>
+    <h2>14. LEY APLICABLE</h2>
+    <p>Esta política se rige por la ley chilena de protección de datos personales: la Ley N° 19.628 y, desde su entrada en vigencia, la Ley N° 21.719.</p>
 
     <div class="contact-info">
-        <h2>16. CONTACTO</h2>
-
-        <p><strong>Responsable del tratamiento de datos:</strong></p>
-        <ul>
-            <li>Razón Social: HEFESTO LABS SpA</li>
-            <li>RUT: 78.277.227-9</li>
-            <li>Email: <a href="mailto:support@sharetip.app">support@sharetip.app</a></li>
-        </ul>
-
-        <p><strong>Para ejercer sus derechos de protección de datos en Chile:</strong></p>
-        <ul>
-            <li>Consejo para la Transparencia: <a href="https://www.consejotransparencia.cl" target="_blank">www.consejotransparencia.cl</a></li>
-            <li>Teléfono CPLT: 600 360 5200</li>
-        </ul>
+        <h2 style="margin-top: 0;">15. CONTACTO</h2>
+        <p><strong>Responsable del tratamiento:</strong> HEFESTO LABS SpA, RUT 78.277.227-9, Chile.</p>
+        <p><strong>Ventas, cobros y pagos a creadores:</strong> DOSBEN LLC, 30 N Gould St, Sheridan, WY 82801, Estados Unidos.</p>
+        <p><strong>Email:</strong> <a href="mailto:support@sharetip.app">support@sharetip.app</a></p>
     </div>
-
-    <p style="margin-top: 2em; padding: 15px; background: #12202F; border-radius: 8px; border: 1px solid #1E2D3D; text-align: center;">
-        <strong>Al usar ShareTip, acepta el procesamiento de sus datos según esta política.</strong>
-    </p>
 </body>
 </html>
